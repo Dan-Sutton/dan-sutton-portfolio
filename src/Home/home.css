@@ -18,8 +18,7 @@
   flex-direction: column;
 }
 
-.content-column h1 {
-  margin-top: -0.1%;
+.content-column .home-title {
   color: white;
   font-size: 6rem;
   font-weight: 800;
@@ -29,7 +28,6 @@
   color: white;
   font-size: 1.8rem;
   font-weight: 500;
-  margin-top: -10%;
 }
 
 .resume-button {
