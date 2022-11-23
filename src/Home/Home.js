@@ -14,7 +14,7 @@ function Home(props) {
   return (
     <>
       <div className="home-content-row">
-        <img src={profileImage} className="profile-image"></img>
+        <img src={profileImage} className="profile-image" alt="Profile"></img>
         <div className="content-column">
           <div className="home-title">
             <Typewriter
@@ -33,6 +33,7 @@ function Home(props) {
             </button>
             <div className="logos">
               <img
+                alt="GitHub logo"
                 src={ghLogo}
                 className="ghlogo"
                 onClick={() =>
@@ -44,6 +45,7 @@ function Home(props) {
                 }
               ></img>
               <img
+                alt="LinkedIn Logo"
                 onClick={() =>
                   window.open(
                     "https://www.linkedin.com/in/dewa-sutton/",
