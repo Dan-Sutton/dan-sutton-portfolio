@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dan-sutton-portfolio/static/css/main.c9c97a33.css",
-    "main.js": "/dan-sutton-portfolio/static/js/main.01d06e93.js",
-    "static/js/787.1ed0c42c.chunk.js": "/dan-sutton-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/linkedinLogo.png": "/dan-sutton-portfolio/static/media/linkedinLogo.8ee2a1ec4f6c48095bd5.png",
-    "static/media/profileImage.jpeg": "/dan-sutton-portfolio/static/media/profileImage.0105fda1497764be022c.jpeg",
-    "static/media/resume.pdf": "/dan-sutton-portfolio/static/media/resume.895d67071e22550d480c.pdf",
-    "static/media/ghLogo.png": "/dan-sutton-portfolio/static/media/ghLogo.65a029dd14ae5c405656.png",
-    "index.html": "/dan-sutton-portfolio/index.html",
-    "main.c9c97a33.css.map": "/dan-sutton-portfolio/static/css/main.c9c97a33.css.map",
-    "main.01d06e93.js.map": "/dan-sutton-portfolio/static/js/main.01d06e93.js.map",
-    "787.1ed0c42c.chunk.js.map": "/dan-sutton-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.5c53c70e.css",
+    "main.js": "/static/js/main.f8042bb6.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/linkedinLogo.png": "/static/media/linkedinLogo.8ee2a1ec4f6c48095bd5.png",
+    "static/media/profileImage.jpeg": "/static/media/profileImage.0105fda1497764be022c.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.895d67071e22550d480c.pdf",
+    "static/media/ghLogo.png": "/static/media/ghLogo.65a029dd14ae5c405656.png",
+    "index.html": "/index.html",
+    "main.5c53c70e.css.map": "/static/css/main.5c53c70e.css.map",
+    "main.f8042bb6.js.map": "/static/js/main.f8042bb6.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9c97a33.css",
-    "static/js/main.01d06e93.js"
+    "static/css/main.5c53c70e.css",
+    "static/js/main.f8042bb6.js"
   ]
 }
