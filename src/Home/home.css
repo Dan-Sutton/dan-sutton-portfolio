@@ -31,3 +31,26 @@
   font-weight: 500;
   margin-top: -10%;
 }
+
+.resume-button,
+.projects-button {
+  height: 2.5rem;
+  width: 8.4rem;
+  border-radius: 25px;
+
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.resume-button {
+  border: 4px solid var(--secondary);
+  background-color: var(--secondary);
+  color: var(--background);
+  margin-right: 3%;
+}
+
+.projects-button {
+  border: 4px solid white;
+  color: white;
+  background-color: var(--background);
+}

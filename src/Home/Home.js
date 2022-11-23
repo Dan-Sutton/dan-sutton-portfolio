@@ -11,8 +11,8 @@ function Home(props) {
           <h1>Hi, I'm Dan!</h1>
           <p>I'm a Software Engineer based in Shropshire, UK. </p>
           <div className="home-buttons">
-            <button>RESUME</button>
-            <button>PROJECTS</button>
+            <button className="resume-button">RESUME</button>
+            <button className="projects-button">PROJECTS</button>
           </div>
         </div>
       </div>
