@@ -36,5 +36,5 @@ body {
 }
 
 .nav li:hover {
-  color: var(--secondar);
+  color: var(--secondary);
 }
