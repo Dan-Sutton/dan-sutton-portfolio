@@ -49,8 +49,19 @@
   margin-right: 3%;
 }
 
+.resume-button:hover {
+  border: 4px solid var(--highlight);
+  background-color: var(--highlight);
+}
+
 .projects-button {
   border: 4px solid white;
   color: white;
   background-color: var(--background);
+}
+
+.projects-button:hover {
+  border: 4px solid var(--highlight);
+  color: var(--background);
+  background-color: var(--highlight);
 }
