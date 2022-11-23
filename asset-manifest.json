@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dan-sutton-portfolio/static/css/main.5c53c70e.css",
-    "main.js": "/dan-sutton-portfolio/static/js/main.01d06e93.js",
+    "main.js": "/dan-sutton-portfolio/static/js/main.a0dbe870.js",
     "static/js/787.1ed0c42c.chunk.js": "/dan-sutton-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/linkedinLogo.png": "/dan-sutton-portfolio/static/media/linkedinLogo.8ee2a1ec4f6c48095bd5.png",
     "static/media/profileImage.jpeg": "/dan-sutton-portfolio/static/media/profileImage.0105fda1497764be022c.jpeg",
@@ -9,11 +9,11 @@
     "static/media/ghLogo.png": "/dan-sutton-portfolio/static/media/ghLogo.65a029dd14ae5c405656.png",
     "index.html": "/dan-sutton-portfolio/index.html",
     "main.5c53c70e.css.map": "/dan-sutton-portfolio/static/css/main.5c53c70e.css.map",
-    "main.01d06e93.js.map": "/dan-sutton-portfolio/static/js/main.01d06e93.js.map",
+    "main.a0dbe870.js.map": "/dan-sutton-portfolio/static/js/main.a0dbe870.js.map",
     "787.1ed0c42c.chunk.js.map": "/dan-sutton-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c53c70e.css",
-    "static/js/main.01d06e93.js"
+    "static/js/main.a0dbe870.js"
   ]
 }
