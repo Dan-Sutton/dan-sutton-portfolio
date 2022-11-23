@@ -13,7 +13,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  padding: 0 1rem;
+  padding: 2% 6%;
 }
 
 .nav ul {
@@ -29,6 +29,13 @@ body {
   text-decoration: none;
   font-size: 2.3rem;
   font-weight: 800;
+}
+
+.nav li a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
 .nav li.active {

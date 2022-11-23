@@ -10,9 +10,9 @@ function Navbar(props) {
       </Link>
 
       <ul>
-        <CustomLink to="/">About Me</CustomLink>
-        <CustomLink to="/projects">Projects</CustomLink>
-        <CustomLink to="contact">Contact</CustomLink>
+        <CustomLink to="/">ABOUT ME</CustomLink>
+        <CustomLink to="/projects">PROJECTS</CustomLink>
+        <CustomLink to="contact">CONTACT</CustomLink>
       </ul>
     </nav>
   );
