@@ -1,10 +1,11 @@
-.card {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  cursor: pointer;
-  display: flex;
-  height: 400px;
-  flex-direction: column;
-  position: relative;
-  width: 290px;
+.cards,
+.big-card {
+  width: 30vmin;
+}
+
+.big-card {
+  aspect-ratio: 5 / 7;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 1vmin;
+  position: absolute;
 }

@@ -6,11 +6,6 @@
 #cards {
   margin-top: 5%;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-
-  width: calc(100% - 20px);
   justify-content: center;
+  align-items: center;
 }
-
-
