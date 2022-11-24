@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/dan-sutton-portfolio/static/css/main.5c53c70e.css",
-    "main.js": "/dan-sutton-portfolio/static/js/main.a0dbe870.js",
+    "main.css": "/dan-sutton-portfolio/static/css/main.71c984c9.css",
+    "main.js": "/dan-sutton-portfolio/static/js/main.52f9b4ae.js",
     "static/js/787.1ed0c42c.chunk.js": "/dan-sutton-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/linkedinLogo.png": "/dan-sutton-portfolio/static/media/linkedinLogo.8ee2a1ec4f6c48095bd5.png",
     "static/media/profileImage.jpeg": "/dan-sutton-portfolio/static/media/profileImage.0105fda1497764be022c.jpeg",
     "static/media/resume.pdf": "/dan-sutton-portfolio/static/media/resume.895d67071e22550d480c.pdf",
+    "static/media/cookr.png": "/dan-sutton-portfolio/static/media/cookr.a94011df89c274b9abd8.png",
+    "static/media/playme.png": "/dan-sutton-portfolio/static/media/playme.184a9e1eea97238ed5ce.png",
+    "static/media/fire.png": "/dan-sutton-portfolio/static/media/fire.b944b2f9efb1a10fc5ff.png",
     "static/media/ghLogo.png": "/dan-sutton-portfolio/static/media/ghLogo.65a029dd14ae5c405656.png",
+    "static/media/lastminband.png": "/dan-sutton-portfolio/static/media/lastminband.f2003574c7dbf0a7eb95.png",
     "index.html": "/dan-sutton-portfolio/index.html",
-    "main.5c53c70e.css.map": "/dan-sutton-portfolio/static/css/main.5c53c70e.css.map",
-    "main.a0dbe870.js.map": "/dan-sutton-portfolio/static/js/main.a0dbe870.js.map",
+    "main.71c984c9.css.map": "/dan-sutton-portfolio/static/css/main.71c984c9.css.map",
+    "main.52f9b4ae.js.map": "/dan-sutton-portfolio/static/js/main.52f9b4ae.js.map",
     "787.1ed0c42c.chunk.js.map": "/dan-sutton-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c53c70e.css",
-    "static/js/main.a0dbe870.js"
+    "static/css/main.71c984c9.css",
+    "static/js/main.52f9b4ae.js"
   ]
 }
