@@ -26,7 +26,10 @@ function Home(props) {
             />
           </div>
 
-          <p>I'm a Software Engineer based in Shropshire, UK. </p>
+          <p>
+            I'm a <span className="magic">Software Engineer</span> based in
+            Shropshire, UK. 
+          </p>
           <div className="home-buttons">
             <button className="resume-button" onClick={() => openResume()}>
               RESUME
