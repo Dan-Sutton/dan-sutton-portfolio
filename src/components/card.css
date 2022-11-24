@@ -99,11 +99,12 @@
 
 .card-icon {
   bottom: 0px;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 7vmin;
+  opacity: 0.9;
+  height: 12%;
+  aspect-ratio: 1 / 1;
   left: 0px;
   margin: 5vmin;
   position: absolute;
   transition: color 250ms ease;
-  z-index: 2;
+  z-index: 4;
 }

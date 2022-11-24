@@ -1,15 +1,15 @@
 import React from "react";
 import "./card.css";
 
-function Card({ title, subtitle }) {
+function Card({ title, subtitle, icon }) {
   return (
     <div className="cards">
-      <div class="card">
-        <div class="card-content">
-          <h3 class="card-title">{title}</h3>
-          <h4 class="card-subtitle">{subtitle}</h4>
+      <div className="card">
+        <div className="card-content">
+          <h3 className="card-title">{title}</h3>
+          <h4 className="card-subtitle">{subtitle}</h4>
         </div>
-        <i class="fa-solid fa-hat-witch card-icon"></i>
+        <img className="card-icon" src={icon} alt={"box-icon"}></img>
       </div>
     </div>
   );
