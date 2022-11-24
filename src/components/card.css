@@ -1,11 +1,109 @@
-.cards,
-.big-card {
-  width: 30vmin;
+:root {
+  --g1: #0152d4;
+  --g2: #33a1cd;
+  --g3: #60efff;
 }
 
-.big-card {
-  aspect-ratio: 5 / 7;
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 1vmin;
+.card {
+  aspect-ratio: 1 / 1.6;
+  border: 0.5vmin solid var(--highlight);
+  cursor: pointer;
+  position: relative;
+  width: 35vmin;
+  border-radius: 20px;
+}
+
+.card:hover:before {
+  background-position: 100% 100%;
+  border-radius: 20px;
+  transform: scale(1.03, 1.03);
+}
+
+.card:hover > .card-content {
+  background-position: -10% 0%;
+}
+
+.card:hover > .card-icon {
+  color: white;
+}
+
+.card:hover > .card-content > .card-subtitle > .card-subtitle-word {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 0ms, transform 200ms cubic-bezier(0.9, 0.06, 0.15, 0.9);
+}
+
+.card:before {
+  border-radius: 20px;
+  background: linear-gradient(
+    130deg,
+    transparent 0% 33%,
+    var(--g1) 66%,
+    var(--g2) 83.5%,
+    var(--g3) 100%
+  );
+  background-position: 0% 0%;
+  background-size: 300% 300%;
+  content: "";
+  height: 100%;
+  left: 0px;
+  pointer-events: none;
   position: absolute;
+  top: 0px;
+  transition: background-position 350ms ease, transform 350ms ease;
+  width: 100%;
+  z-index: 1;
+}
+
+.card-content {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.2) 8%,
+    transparent 8%
+  );
+  background-position: 0% 0%;
+  background-size: 3vmin 3vmin;
+  height: calc(100%);
+  padding: 5vmin;
+  position: relative;
+  transition: background-position 350ms ease;
+  width: calc(100%);
+  z-index: 2;
+}
+
+.card-title,
+.card-subtitle {
+  color: white;
+  font-family: "Anek Latin", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.card-title {
+  font-size: 6vmin;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  font-size: 3vmin;
+  margin-top: 2vmin;
+}
+
+.card-subtitle-word {
+  display: inline-block;
+  margin: 0vmin 0.3vmin;
+  opacity: 0;
+  position: relative;
+  transform: translateY(40%);
+  transition: none;
+}
+
+.card-icon {
+  bottom: 0px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 7vmin;
+  left: 0px;
+  margin: 5vmin;
+  position: absolute;
+  transition: color 250ms ease;
+  z-index: 2;
 }
