@@ -28,7 +28,6 @@
 }
 
 .tags {
-  gap: 5%;
   display: flex;
   flex-direction: row;
 }
@@ -37,7 +36,7 @@
 .html-tag,
 .css-tag {
   height: 100%;
-  margin: 0 5px 0 5px;
+  margin: 0 2px 0 5px;
   padding: 5px 5px 5px 5px;
   border-radius: 6px;
   font-weight: 600;
