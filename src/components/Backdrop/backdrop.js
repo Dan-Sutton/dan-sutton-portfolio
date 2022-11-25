@@ -42,6 +42,29 @@ function Backdrop({ content, handleClose }) {
         exit="exit"
       >
         <h1>{content}</h1>
+        <div className="tags">
+          <motion.p
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="react-tag"
+          >
+            REACT
+          </motion.p>
+          <motion.p
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="html-tag"
+          >
+            HTML
+          </motion.p>
+          <motion.p
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="css-tag"
+          >
+            CSS
+          </motion.p>
+        </div>
       </motion.div>
     </motion.div>
   );

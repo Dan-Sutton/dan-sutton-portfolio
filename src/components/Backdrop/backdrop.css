@@ -26,3 +26,32 @@
 .backdrop h1 {
   color: var(--background);
 }
+
+.tags {
+  gap: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.react-tag,
+.html-tag,
+.css-tag {
+  height: 100%;
+  margin: 0 5px 0 5px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.react-tag {
+  background-color: blue;
+  color: white;
+}
+
+.html-tag {
+  background-color: orange;
+}
+
+.css-tag {
+  background-color: lightskyblue;
+}
