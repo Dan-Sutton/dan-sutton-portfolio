@@ -5,7 +5,6 @@ import cookr from "../assets/cookr.png";
 import fire from "../assets/fire.png";
 import lastminband from "../assets/lastminband.png";
 import playme from "../assets/playme.png";
-import Modal from "../components/Modal/Modal";
 import { useState } from "react";
 import Backdrop from "../components/Backdrop/backdrop";
 
@@ -33,14 +32,12 @@ function Projects() {
         icon={cookr}
         onClick={() => handleModal("cookr")}
       />
-      {modalOpen && (
-        <Backdrop modalOpen={open} handleClose={close} content={selectedCard} />
-      )}
+
       <Card
         title={"Band Website"}
         subtitle={"A Band showcasing site, where bookings can be made"}
         icon={fire}
-        onClick={() => handleModal()}
+        onClick={() => handleModal("bandSite")}
       />
       <Card
         title={"Last Minute Band"}
@@ -54,6 +51,9 @@ function Projects() {
         icon={playme}
         onClick={() => handleModal()}
       />
+      {modalOpen && (
+        <Backdrop modalOpen={open} handleClose={close} content={selectedCard} />
+      )}
     </div>
   );
 }
