@@ -7,14 +7,22 @@ import lastminband from "../assets/lastminband.png";
 import playme from "../assets/playme.png";
 import Modal from "../components/Modal/Modal";
 import { useState } from "react";
+import Backdrop from "../components/Backdrop/backdrop";
 
 function Projects() {
   const [modalOpen, setModalOpen] = useState(false);
+  const [selectedCard, setSelectedCard] = useState();
+
+  const cards = {
+    cookr: "Cookr",
+    bandSite: "Band Site",
+  };
 
   const close = () => setModalOpen(false);
   const open = () => setModalOpen(true);
 
-  function handleModal() {
+  function handleModal(cardDetails) {
+    setSelectedCard(cards[cardDetails]);
     modalOpen ? close() : open();
   }
   return (
@@ -23,9 +31,11 @@ function Projects() {
         title={"Cookr"}
         subtitle={"Random recipe finder"}
         icon={cookr}
-        onClick={() => handleModal()}
+        onClick={() => handleModal("cookr")}
       />
-      {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} />}
+      {modalOpen && (
+        <Backdrop modalOpen={open} handleClose={close} content={selectedCard} />
+      )}
       <Card
         title={"Band Website"}
         subtitle={"A Band showcasing site, where bookings can be made"}

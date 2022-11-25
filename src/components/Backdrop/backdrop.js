@@ -2,15 +2,18 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./backdrop.css";
 
-function Backdrop({ children, onClick }) {
+function Backdrop({ content, handleClose }) {
   return (
     <motion.div
+      onClick={handleClose}
       className="backdrop"
-      onClick={onClick}
+      handleClose={handleClose}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-    ></motion.div>
+    >
+      <h1>{content}</h1>
+    </motion.div>
   );
 }
 
