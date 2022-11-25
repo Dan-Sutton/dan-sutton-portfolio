@@ -42,7 +42,6 @@ function Backdrop({ content, handleClose }) {
         exit="exit"
       >
         <h1>{content}</h1>
-        <button>fhiwerhio</button>
       </motion.div>
     </motion.div>
   );
