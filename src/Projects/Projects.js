@@ -25,18 +25,25 @@ function Projects() {
         icon={cookr}
         onClick={() => handleModal()}
       />
+      {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} />}
       <Card
         title={"Band Website"}
         subtitle={"A Band showcasing site, where bookings can be made"}
         icon={fire}
+        onClick={() => handleModal()}
       />
       <Card
         title={"Last Minute Band"}
         subtitle={"Find and book local bands"}
         icon={lastminband}
+        onClick={() => handleModal()}
       />
-      <Card title={"Play it"} subtitle={"Make song requests"} icon={playme} />
-      {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} />}
+      <Card
+        title={"Play it"}
+        subtitle={"Make song requests"}
+        icon={playme}
+        onClick={() => handleModal()}
+      />
     </div>
   );
 }
