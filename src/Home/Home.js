@@ -5,6 +5,7 @@ import resume from "../assets/resume.pdf";
 import ghLogo from "../assets/ghLogo.png";
 import linkedinLogo from "../assets/linkedinLogo.png";
 import Typewriter from "typewriter-effect";
+import { motion } from "framer-motion";
 
 function Home(props) {
   function openResume() {
@@ -31,11 +32,18 @@ function Home(props) {
             Shropshire, UK. 
           </p>
           <div className="home-buttons">
-            <button className="resume-button" onClick={() => openResume()}>
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="resume-button"
+              onClick={() => openResume()}
+            >
               RESUME
-            </button>
+            </motion.button>
             <div className="logos">
-              <img
+              <motion.img
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.9 }}
                 alt="GitHub logo"
                 src={ghLogo}
                 className="ghlogo"
@@ -46,8 +54,10 @@ function Home(props) {
                     "noopener,noreferrer"
                   )
                 }
-              ></img>
-              <img
+              ></motion.img>
+              <motion.img
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.9 }}
                 alt="LinkedIn Logo"
                 onClick={() =>
                   window.open(
@@ -58,7 +68,7 @@ function Home(props) {
                 }
                 src={linkedinLogo}
                 className="linkedinlogo"
-              ></img>
+              ></motion.img>
             </div>
           </div>
         </div>
