@@ -7,13 +7,18 @@ import lastminband from "../assets/lastminband.png";
 import playme from "../assets/playme.png";
 import { useState } from "react";
 import Backdrop from "../components/Backdrop/backdrop";
+import { modalInfo } from "../assets/SeedData/modalInfo";
 
 function Projects() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedCard, setSelectedCard] = useState();
 
   const cards = {
-    cookr: "Cookr",
+    cookr: {
+      title: "Cookr",
+      description:
+        "With the creation of this app, I aimed to solve the daily issue of what to have at meal times. I was inspired by the quick and simple useage of Tinder, which allows a user to have a quick overview of information, allowing them to quickly decide 'yes', or 'no'.",
+    },
     bandSite: "Band Site",
   };
 
@@ -21,7 +26,7 @@ function Projects() {
   const open = () => setModalOpen(true);
 
   function handleModal(cardDetails) {
-    setSelectedCard(cards[cardDetails]);
+    setSelectedCard(modalInfo[cardDetails]);
     modalOpen ? close() : open();
   }
   return (

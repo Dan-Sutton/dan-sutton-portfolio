@@ -1,0 +1,16 @@
+.modal-video {
+  height: 95%;
+  border: 6px solid black;
+  border-radius: 20px;
+}
+
+.modal-content-body {
+  height: 75%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-content-body p {
+  width: 65%;
+}

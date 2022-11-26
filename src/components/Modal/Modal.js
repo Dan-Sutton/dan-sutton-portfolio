@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import "./modal.css";
 
 function Modal({ content }) {
   const dropIn = {
@@ -31,7 +32,8 @@ function Modal({ content }) {
       animate="visible"
       exit="exit"
     >
-      <h1>{content}</h1>
+      <h1>{content.title}</h1>
+
       <div className="tags">
         <motion.p
           whileHover={{ scale: 1.1 }}
@@ -54,6 +56,18 @@ function Modal({ content }) {
         >
           CSS
         </motion.p>
+      </div>
+      <div className="modal-content-body">
+        <p>{content.description}</p>
+        <motion.video
+          src={content.video}
+          type="video/mov"
+          className="modal-video"
+          autoPlay="true"
+          loop="true"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+        />
       </div>
     </motion.div>
   );
