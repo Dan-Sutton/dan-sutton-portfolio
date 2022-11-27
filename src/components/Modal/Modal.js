@@ -65,14 +65,14 @@ function Modal({ content }) {
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="resume-button"
+              className="modal-button"
             >
               Live Project
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="resume-button"
+              className="modal-button"
             >
               GitHub Repo
             </motion.button>
