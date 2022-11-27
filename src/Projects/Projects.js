@@ -32,7 +32,7 @@ function Projects() {
   return (
     <div id="cards">
       <Card
-        title={"Play it"}
+        title={"Play it!"}
         subtitle={"Make song requests"}
         icon={playme}
         onClick={() => handleModal()}
