@@ -1,6 +1,5 @@
 .modal-video {
-  height: 95%;
-  border: 6px solid black;
+  height: 99%;
   border-radius: 20px;
 }
 
@@ -12,5 +11,28 @@
 }
 
 .modal-content-body p {
+}
+
+.modal-text-content {
+  display: flex;
+  flex-direction: column;
   width: 65%;
+  justify-content: space-between;
+  height: 70%;
+}
+
+.modal-button-row {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-video-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 96%;
+  width: 29%;
+  border: 6px solid black;
+  border-radius: 24px;
 }

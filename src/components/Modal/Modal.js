@@ -58,16 +58,39 @@ function Modal({ content }) {
         </motion.p>
       </div>
       <div className="modal-content-body">
-        <p>{content.description}</p>
-        <motion.video
-          src={content.video}
-          type="video/mov"
-          className="modal-video"
-          autoPlay="true"
-          loop="true"
+        <div className="modal-text-content">
+          <p>{content.description}</p>
+
+          <div className="modal-button-row">
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="resume-button"
+            >
+              Live Project
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="resume-button"
+            >
+              GitHub Repo
+            </motion.button>
+          </div>
+        </div>
+        <motion.div
+          className="mobile-video-div"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
-        />
+        >
+          <motion.video
+            src={content.video}
+            type="video/mov"
+            className="modal-video"
+            autoPlay="true"
+            loop="true"
+          />
+        </motion.div>
       </div>
     </motion.div>
   );
