@@ -32,6 +32,12 @@ function Projects() {
   return (
     <div id="cards">
       <Card
+        title={"Play it"}
+        subtitle={"Make song requests"}
+        icon={playme}
+        onClick={() => handleModal()}
+      />
+      <Card
         title={"Cookr"}
         subtitle={"Random recipe finder"}
         icon={cookr}
@@ -50,12 +56,7 @@ function Projects() {
         icon={lastminband}
         onClick={() => handleModal()}
       />
-      <Card
-        title={"Play it"}
-        subtitle={"Make song requests"}
-        icon={playme}
-        onClick={() => handleModal()}
-      />
+
       {modalOpen && (
         <Backdrop modalOpen={open} handleClose={close} content={selectedCard} />
       )}
