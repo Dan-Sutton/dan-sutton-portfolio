@@ -3,11 +3,12 @@ import "./projects.css";
 import Card from "../components/Card";
 import cookr from "../assets/cookr.png";
 import fire from "../assets/fire.png";
-import lastminband from "../assets/lastminband.png";
+// import lastminband from "../assets/lastminband.png";
 import playme from "../assets/playme.png";
 import { useState } from "react";
 import Backdrop from "../components/Backdrop/backdrop";
 import { modalInfo } from "../assets/SeedData/modalInfo";
+import { motion } from "framer-motion";
 
 function Projects() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -21,7 +22,12 @@ function Projects() {
     modalOpen ? close() : open();
   }
   return (
-    <div id="cards">
+    <motion.div
+      id="cards"
+      initial={{ opacity: 0.5, y: 1000 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, yChannelSelector: -1000 }}
+    >
       <Card
         title={"Play Me!"}
         subtitle={"Make song requests"}
@@ -41,17 +47,11 @@ function Projects() {
         icon={fire}
         onClick={() => handleModal("bandSite")}
       />
-      <Card
-        title={"Last Minute Band"}
-        subtitle={"Find and book local bands"}
-        icon={lastminband}
-        onClick={() => handleModal()}
-      />
 
       {modalOpen && (
         <Backdrop modalOpen={open} handleClose={close} content={selectedCard} />
       )}
-    </div>
+    </motion.div>
   );
 }
 
