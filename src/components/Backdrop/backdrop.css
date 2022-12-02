@@ -13,7 +13,6 @@
 .modal {
   width: clamp(50%, 800px, 90%);
   height: min(70%, 500px);
-  margin: auto;
   padding: 0 2rem;
   border-radius: 12px;
   display: flex;
@@ -27,14 +26,24 @@
   color: var(--background);
 }
 
+.modaltitle {
+  top: 0;
+  font-size: 300%;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
 .tags {
   display: flex;
   flex-direction: row;
 }
 
-.react-tag,
-.html-tag,
-.css-tag {
+.React-tag,
+.CSS-tag,
+.NextJS-tag,
+.Firebase-tag,
+.Firestore-tag,
+.APIs-tag {
   height: 100%;
   margin: 0 2px 0 5px;
   padding: 5px 5px 5px 5px;
@@ -42,15 +51,28 @@
   font-weight: 600;
 }
 
-.react-tag {
-  background-color: blue;
+.React-tag {
+  background-color: #61dcfc;
+  color: black;
+}
+
+.CSS-tag {
+  background-color: #1675bb;
   color: white;
 }
 
-.html-tag {
-  background-color: orange;
+.APIs-tag {
+  background-color: #4dc46f;
 }
 
-.css-tag {
-  background-color: lightskyblue;
+.NextJS-tag {
+  background-color: #fdb501;
+}
+
+.Firebase-tag {
+  background-color: #ff8a65;
+}
+
+.Firestore-tag {
+  background-color: #ffca28;
 }

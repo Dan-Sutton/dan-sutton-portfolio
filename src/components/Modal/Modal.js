@@ -32,30 +32,20 @@ function Modal({ content }) {
       animate="visible"
       exit="exit"
     >
-      <h1>{content.title}</h1>
+      <h1 className={"modaltitle"}>{content.title}</h1>
 
       <div className="tags">
-        <motion.p
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="react-tag"
-        >
-          REACT
-        </motion.p>
-        <motion.p
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="html-tag"
-        >
-          HTML
-        </motion.p>
-        <motion.p
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="css-tag"
-        >
-          CSS
-        </motion.p>
+        {content.stack.map((i) => {
+          return (
+            <motion.p
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className={`${i}-tag`}
+            >
+              {i}
+            </motion.p>
+          );
+        })}
       </div>
       <div className="modal-content-body">
         <div className="modal-text-content">
