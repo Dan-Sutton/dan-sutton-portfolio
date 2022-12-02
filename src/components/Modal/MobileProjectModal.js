@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import "./modal.css";
 
 function MobileProjectModal({ content }) {
+
+
   return (
     <div className="modal-content-body">
       <div className="modal-text-content">
@@ -16,7 +18,9 @@ function MobileProjectModal({ content }) {
           >
             Live Project
           </motion.button>
+
           <motion.button
+            onClick={() => console.log("ohofhewofhewh")}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="modal-button"

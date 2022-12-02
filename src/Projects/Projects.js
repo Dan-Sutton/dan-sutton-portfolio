@@ -13,15 +13,6 @@ function Projects() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedCard, setSelectedCard] = useState();
 
-  const cards = {
-    cookr: {
-      title: "Cookr",
-      description:
-        "With the creation of this app, I aimed to solve the daily issue of what to have at meal times. I was inspired by the quick and simple useage of Tinder, which allows a user to have a quick overview of information, allowing them to quickly decide 'yes', or 'no'.",
-    },
-    bandSite: "Band Site",
-  };
-
   const close = () => setModalOpen(false);
   const open = () => setModalOpen(true);
 
@@ -32,10 +23,10 @@ function Projects() {
   return (
     <div id="cards">
       <Card
-        title={"Play it!"}
+        title={"Play Me!"}
         subtitle={"Make song requests"}
         icon={playme}
-        onClick={() => handleModal()}
+        onClick={() => handleModal("playme")}
       />
       <Card
         title={"Cookr"}

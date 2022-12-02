@@ -66,10 +66,16 @@ function Modal({ content }) {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               className="modal-button"
+              onClick={() => {
+                window.open(content.link, "_blank", "noopener,noreferrer");
+              }}
             >
               Live Project
             </motion.button>
             <motion.button
+              onClick={() => {
+                window.open(content.github, "_blank", "noopener,noreferrer");
+              }}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               className="modal-button"
