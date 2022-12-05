@@ -24,9 +24,9 @@ function Projects() {
   return (
     <motion.div
       id="cards"
-      initial={{ opacity: 0.5, y: 1000 }}
+      initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, yChannelSelector: -1000 }}
+      exit={{ opacity: 0, yChannelSelector: -100 }}
     >
       <Card
         title={"Play Me!"}

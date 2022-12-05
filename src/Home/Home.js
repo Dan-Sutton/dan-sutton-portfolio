@@ -16,9 +16,9 @@ function Home(props) {
     <>
       <motion.div
         className="home-content-row"
-        initial={{ opacity: 0.5, y: 1000 }}
-        animate={{ opacity: 1, y: 0, duration: 1000 }}
-        exit={{ opacity: 0.5, y: -1000, duration: 10 }}
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0, duration: 100 }}
+        exit={{ opacity: 0.5, y: -100, duration: 10 }}
       >
         <img src={profileImage} className="profile-image" alt="Profile"></img>
         <div className="content-column">
