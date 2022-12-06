@@ -78,15 +78,18 @@ function Home(props) {
           </div>
         </div>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         className="home-more-content"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0, duration: 1000 }}
         transition={{ delay: 0.1 }}
         exit={{ opacity: 0.5, y: -100, duration: 10 }}
       >
-        <h1>More info</h1>
-      </motion.div>
+        <div>
+          <h1>About me</h1>
+          <p>I'm a passionate Software Engineer, with a drive to consistently deliver a high quality output. </p>
+        </div>
+      </motion.div> */}
     </>
   );
 }
