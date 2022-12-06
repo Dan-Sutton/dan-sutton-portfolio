@@ -12,7 +12,6 @@ function Navbar(props) {
       <ul>
         <CustomLink to="/">ABOUT ME</CustomLink>
         <CustomLink to="/projects">PROJECTS</CustomLink>
-        <CustomLink to="contact">CONTACT</CustomLink>
       </ul>
     </nav>
   );
