@@ -96,3 +96,29 @@ p > .magic {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 861px) {
+  .home-content-row {
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+  }
+  .content-column .home-title {
+    font-size: 50px;
+    position: absolute;
+  }
+  .content-column p {
+    margin-top: 80px;
+  }
+
+  .profile-image {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 20px;
+  }
+
+  .content-column {
+    width: 70%;
+  }
+}
