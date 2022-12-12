@@ -76,4 +76,7 @@
   .modal-text-content {
     width: 100%;
   }
+  .modal-button {
+    padding: 5px;
+  }
 }
