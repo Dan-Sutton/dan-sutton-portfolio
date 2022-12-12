@@ -25,6 +25,7 @@
 .website-modal-button-row {
   display: flex;
   justify-content: center;
+  margin-bottom: 6%;
 }
 
 /* .mobile-video-div {
@@ -54,4 +55,21 @@
   background-color: var(--background);
   color: white;
   margin-right: 3%;
+}
+
+@media (max-width: 861px) {
+  .website-modal-content-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 5%;
+  }
+  .website-modal-content-body p {
+    margin-right: 0;
+    text-align: justify;
+  }
+  .website-modal-text-content {
+    width: 95%;
+  }
 }

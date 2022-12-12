@@ -4,8 +4,6 @@
   --g3: #60efff;
 }
 
-
-
 .card {
   aspect-ratio: 1 / 1.6;
   border: 0.5vmin solid var(--highlight);
