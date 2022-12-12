@@ -47,15 +47,29 @@ function WebsiteModal({ content }) {
           );
         })}
       </div>
-      <div className="modal-content-body">
-        <div className="modal-text-content">
+      <div className="website-modal-content-body">
+        <div className="website-modal-text-content">
           <p>{content.description}</p>
 
-          <div className="modal-button-row">
+          {/* <motion.div
+            className="mobile-video-div"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <motion.video
+              src={content.video}
+              type="video/mov"
+              className="modal-video"
+              autoPlay="true"
+              loop="true"
+            />
+          </motion.div> */}
+
+          <div className="website-modal-button-row">
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="modal-button"
+              className="website-modal-button"
               onClick={() => {
                 window.open(content.link, "_blank", "noopener,noreferrer");
               }}
@@ -68,25 +82,12 @@ function WebsiteModal({ content }) {
               }}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="modal-button"
+              className="website-modal-button"
             >
               GitHub Repo
             </motion.button>
           </div>
         </div>
-        <motion.div
-          className="mobile-video-div"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.9 }}
-        >
-          <motion.video
-            src={content.video}
-            type="video/mov"
-            className="modal-video"
-            autoPlay="true"
-            loop="true"
-          />
-        </motion.div>
       </div>
     </motion.div>
   );

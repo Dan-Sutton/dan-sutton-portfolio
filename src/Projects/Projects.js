@@ -13,6 +13,7 @@ import { motion } from "framer-motion";
 function Projects() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedCard, setSelectedCard] = useState();
+  const [mobileView, setMobileView] = useState(true);
 
   const close = () => setModalOpen(false);
   const open = () => setModalOpen(true);
@@ -32,24 +33,38 @@ function Projects() {
         title={"Play Me!"}
         subtitle={"Make song requests"}
         icon={playme}
-        onClick={() => handleModal("playme")}
+        onClick={() => {
+          handleModal("playme");
+          setMobileView(true);
+        }}
       />
       <Card
         title={"Cookr"}
         subtitle={"Random recipe finder"}
         icon={cookr}
-        onClick={() => handleModal("cookr")}
+        onClick={() => {
+          handleModal("cookr");
+          setMobileView(true);
+        }}
       />
 
       <Card
         title={"Band Website"}
         subtitle={"A Band showcasing site, where bookings can be made"}
         icon={fire}
-        onClick={() => handleModal("bandSite")}
+        onClick={() => {
+          handleModal("bandSite");
+          setMobileView(false);
+        }}
       />
 
       {modalOpen && (
-        <Backdrop modalOpen={open} handleClose={close} content={selectedCard} />
+        <Backdrop
+          modalOpen={open}
+          handleClose={close}
+          content={selectedCard}
+          mobileView={mobileView}
+        />
       )}
     </motion.div>
   );

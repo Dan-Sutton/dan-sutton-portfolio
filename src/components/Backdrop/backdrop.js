@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./backdrop.css";
 import Modal from "../Modal/Modal";
-import WebsiteModal from "../Modal/WebsiteModal";
+import WebsiteModal from "../Modal/website/WebsiteModal";
 
 function Backdrop({ content, handleClose, mobileView = true }) {
   return (

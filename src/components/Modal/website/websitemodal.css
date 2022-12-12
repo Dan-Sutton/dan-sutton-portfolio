@@ -1,51 +1,50 @@
-.modal-video {
+/* .website-modal-video {
   object-fit: cover;
   height: 99%;
   border-radius: 20px;
   width: 100%;
   height: 100%;
-}
+} */
 
-.modal-content-body {
+.website-modal-content-body {
   height: 75%;
-  width: 90%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.modal-content-body p {
-}
-
-.modal-text-content {
+.website-modal-text-content {
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 85%;
   justify-content: space-between;
   height: 70%;
 }
 
-.modal-button-row {
+.website-modal-button-row {
   display: flex;
   justify-content: center;
 }
 
-.mobile-video-div {
+/* .mobile-video-div {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
-  height: 96%;
-  width: 29%;
+  height: 70%;
+  width: 45%;
   border: 7px solid black;
   border-radius: 24px;
-}
+} */
 
-.modal-button:hover {
+.website-modal-button:hover {
   border: 4px solid var(--secondary);
   background-color: var(--secondary);
+  cursor: pointer;
 }
 
-.modal-button {
+.website-modal-button {
   height: 2.5rem;
   width: 8.4rem;
   border-radius: 25px;
