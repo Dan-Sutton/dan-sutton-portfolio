@@ -85,6 +85,8 @@ function Modal({ content }) {
             className="modal-video"
             autoPlay="false"
             loop="true"
+            muted
+            playsInline
           />
         </motion.div>
       </div>
