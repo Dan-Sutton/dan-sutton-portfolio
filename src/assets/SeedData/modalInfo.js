@@ -9,7 +9,16 @@ export const modalInfo = {
     link: "https://dan-sutton.github.io/cookr/",
     stack: ["React", "CSS", "APIs"],
   },
-  bandSite: "Band Site",
+  bandSite: {
+    title: "The Wildfire Website",
+    description:
+      "This website was created for my band, and is used by clients and the public to book us and Gian information about the band. The EVENTS page uses, Hygraph: a native GraphQL Headless CMS. New events are added to Hygraph, and the page will dynamically update accordingly. This makes it a lot easer for myself and other band members to update the page. Additionally, I used a service called EmailJS, that allows me to implement a contact form onto the website. Any emails made on the website go straight to our shared Gmail account. Content, such as videos and images are currently stored in Cloudinary.",
+    video:
+      "https://res.cloudinary.com/dsdpn6tzq/video/upload/v1670020196/Website/play_me_final_gymf5l.mov",
+    github: "https://github.com/Dan-Sutton/play-me-2.0",
+    link: "https://playmeapp.netlify.app/auth/login",
+    stack: ["NextJS", "CSS", "GraphQl", "EmailJS"],
+  },
   playme: {
     title: "Play Me!",
     description:

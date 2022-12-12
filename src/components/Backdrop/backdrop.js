@@ -2,8 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./backdrop.css";
 import Modal from "../Modal/Modal";
+import WebsiteModal from "../Modal/WebsiteModal";
 
-function Backdrop({ content, handleClose }) {
+function Backdrop({ content, handleClose, mobileView = true }) {
   return (
     <motion.div
       onClick={handleClose}
@@ -13,7 +14,11 @@ function Backdrop({ content, handleClose }) {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <Modal content={content} />
+      {mobileView ? (
+        <Modal content={content} />
+      ) : (
+        <WebsiteModal content={content} />
+      )}
     </motion.div>
   );
 }
