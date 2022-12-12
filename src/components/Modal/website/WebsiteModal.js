@@ -35,9 +35,10 @@ function WebsiteModal({ content }) {
       <h1 className={"modaltitle"}>{content.title}</h1>
 
       <div className="tags">
-        {content.stack.map((i) => {
+        {content.stack.map((i, index) => {
           return (
             <motion.p
+              key={index}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               className={`${i}-tag`}

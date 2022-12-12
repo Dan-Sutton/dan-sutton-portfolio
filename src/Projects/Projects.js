@@ -61,7 +61,7 @@ function Projects() {
       {modalOpen && (
         <Backdrop
           modalOpen={open}
-          handleClose={close}
+          handleclose={close}
           content={selectedCard}
           mobileView={mobileView}
         />

@@ -4,12 +4,11 @@ import "./backdrop.css";
 import Modal from "../Modal/Modal";
 import WebsiteModal from "../Modal/website/WebsiteModal";
 
-function Backdrop({ content, handleClose, mobileView = true }) {
+function Backdrop({ content, handleclose, mobileView = true }) {
   return (
     <motion.div
-      onClick={handleClose}
+      onClick={() => handleclose()}
       className="backdrop"
-      handleClose={handleClose}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
