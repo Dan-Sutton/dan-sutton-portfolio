@@ -83,7 +83,7 @@ function Modal({ content }) {
             src={content.video}
             type="video/mov"
             className="modal-video"
-            autoPlay="true"
+            autoPlay="false"
             loop="true"
           />
         </motion.div>
