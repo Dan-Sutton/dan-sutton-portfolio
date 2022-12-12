@@ -12,7 +12,6 @@
 }
 .modal {
   width: clamp(50%, 800px, 90%);
-  /* height: min(70%, 500px); */
   height: fit-content;
   padding: 0 4rem;
   border-radius: 12px;
@@ -89,4 +88,12 @@
 
 .EmailJS-tag {
   background-color: #64d8c0;
+}
+
+@media (max-width: 861px) {
+  .modal {
+    height: 100vw;
+    overflow-y: scroll;
+    border-radius: 1px;
+  }
 }

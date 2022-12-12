@@ -65,14 +65,14 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-
     margin-bottom: 5%;
+    height: fit-content;
   }
   .modal-content-body p {
     margin-right: 0;
     text-align: justify;
   }
   .modal-text-content {
-    width: 95%;
+    width: 120%;
   }
 }
