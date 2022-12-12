@@ -120,5 +120,6 @@ p > .magic {
 
   .content-column {
     width: 70%;
+    padding-bottom: 10%;
   }
 }
