@@ -25,7 +25,7 @@
 .backdrop h1 {
   color: var(--background);
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 20px;
 }
 
 .modaltitle {
@@ -47,7 +47,10 @@
 .Firestore-tag,
 .APIs-tag,
 .GraphQL-tag,
-.EmailJS-tag {
+.EmailJS-tag,
+.Flutter-tag,
+.Dart-tag,
+.State-management-tag {
   height: 100%;
   margin: 0 2px 0 5px;
   padding: 5px 5px 5px 5px;
@@ -88,6 +91,20 @@
 
 .EmailJS-tag {
   background-color: #64d8c0;
+}
+
+.Flutter-tag {
+  background-color: #2bb6f6;
+  color: black;
+}
+
+.Dart-tag {
+  background-color: #03589c;
+  color: white;
+}
+
+.State-management-tag {
+  background-color: #fdb501;
 }
 
 @media (max-width: 861px) {

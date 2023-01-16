@@ -1,6 +1,7 @@
 import cookr from "../../assets/cookr.png";
 import fire from "../../assets/fire.png";
 import playme from "../../assets/playme.png";
+import spotlas from "../../assets/spotlas.png";
 
 export const modalInfo = [
   {
@@ -14,6 +15,18 @@ export const modalInfo = [
     link: "https://playthat.xyz/",
     stack: ["NextJS", "CSS", "Firebase", "Firestore"],
     icon: playme,
+  },
+  {
+    name: "spotlas",
+    title: "Spotlas clone (feed)",
+    description:
+      "As part of an application process, I created a clone of the Spotlas feed. The app was built in Flutter. The data is fetched via a given API, and using the ‘http’ Flutter package. This data is utilised via state management using the package ‘Provider’. The feed is then dynamically generated. State management is also utilised for saving a location, as well as liking a post.",
+    video:
+      "https://res.cloudinary.com/dsdpn6tzq/video/upload/v1670020196/Website/play_me_final_gymf5l.mov",
+    github: "https://github.com/Dan-Sutton/spotlas_code_challenge",
+    link: "https://drive.google.com/file/d/13Rs2vfrN7oqhVpJ_ZciVsgQ_NNszDxp4/view?usp=share_link",
+    stack: ["Flutter", "Dart", "APIs", "State-management"],
+    icon: spotlas,
   },
   {
     name: "bandSite",
