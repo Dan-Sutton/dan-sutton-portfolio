@@ -1,10 +1,6 @@
 import React from "react";
 import "./projects.css";
 import Card from "../components/Card";
-import cookr from "../assets/cookr.png";
-import fire from "../assets/fire.png";
-// import lastminband from "../assets/lastminband.png";
-import playme from "../assets/playme.png";
 import { useState } from "react";
 import Backdrop from "../components/Backdrop/backdrop";
 import { modalInfo } from "../assets/SeedData/modalInfo";
@@ -18,10 +14,11 @@ function Projects() {
   const close = () => setModalOpen(false);
   const open = () => setModalOpen(true);
 
-  function handleModal(cardDetails) {
-    setSelectedCard(modalInfo[cardDetails]);
+  function handleModal(index) {
+    setSelectedCard(modalInfo[index]);
     modalOpen ? close() : open();
   }
+
   return (
     <motion.div
       id="cards"
@@ -29,34 +26,19 @@ function Projects() {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, yChannelSelector: -100 }}
     >
-      <Card
-        title={"Play Me!"}
-        subtitle={"Make song requests"}
-        icon={playme}
-        onClick={() => {
-          handleModal("playme");
-          setMobileView(true);
-        }}
-      />
-      <Card
-        title={"Cookr"}
-        subtitle={"Random recipe finder"}
-        icon={cookr}
-        onClick={() => {
-          handleModal("cookr");
-          setMobileView(true);
-        }}
-      />
-
-      <Card
-        title={"Band Website"}
-        subtitle={"A Band showcasing site, where bookings can be made"}
-        icon={fire}
-        onClick={() => {
-          handleModal("bandSite");
-          setMobileView(false);
-        }}
-      />
+      {modalInfo.map((item, index) => {
+        return (
+          <Card
+            title={item.title}
+            subtitle={item.subtitle}
+            icon={item.icon}
+            onClick={() => {
+              handleModal(index);
+              setMobileView(false);
+            }}
+          />
+        );
+      })}
 
       {modalOpen && (
         <Backdrop
