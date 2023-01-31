@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/dan-sutton-portfolio/static/css/main.90b756d7.css",
-    "main.js": "/dan-sutton-portfolio/static/js/main.730fd554.js",
-    "static/js/787.1ed0c42c.chunk.js": "/dan-sutton-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/linkedinLogo.png": "/dan-sutton-portfolio/static/media/linkedinLogo.8ee2a1ec4f6c48095bd5.png",
-    "static/media/profileImage.jpeg": "/dan-sutton-portfolio/static/media/profileImage.0105fda1497764be022c.jpeg",
-    "static/media/resume.pdf": "/dan-sutton-portfolio/static/media/resume.895d67071e22550d480c.pdf",
-    "static/media/cookr.png": "/dan-sutton-portfolio/static/media/cookr.a94011df89c274b9abd8.png",
-    "static/media/playme.png": "/dan-sutton-portfolio/static/media/playme.184a9e1eea97238ed5ce.png",
-    "static/media/fire.png": "/dan-sutton-portfolio/static/media/fire.b944b2f9efb1a10fc5ff.png",
-    "static/media/ghLogo.png": "/dan-sutton-portfolio/static/media/ghLogo.65a029dd14ae5c405656.png",
-    "index.html": "/dan-sutton-portfolio/index.html",
-    "main.90b756d7.css.map": "/dan-sutton-portfolio/static/css/main.90b756d7.css.map",
-    "main.730fd554.js.map": "/dan-sutton-portfolio/static/js/main.730fd554.js.map",
-    "787.1ed0c42c.chunk.js.map": "/dan-sutton-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "./static/css/main.71f853fa.css",
+    "main.js": "./static/js/main.7387bcc7.js",
+    "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
+    "static/media/linkedinLogo.png": "./static/media/linkedinLogo.8ee2a1ec4f6c48095bd5.png",
+    "static/media/profileImage.jpeg": "./static/media/profileImage.0105fda1497764be022c.jpeg",
+    "static/media/resume.pdf": "./static/media/resume.efb5bba75bd1bbebffed.pdf",
+    "static/media/spotlas.png": "./static/media/spotlas.756eacd1d0456097bac0.png",
+    "static/media/cookr.png": "./static/media/cookr.a94011df89c274b9abd8.png",
+    "static/media/playme.png": "./static/media/playme.184a9e1eea97238ed5ce.png",
+    "static/media/fire.png": "./static/media/fire.b944b2f9efb1a10fc5ff.png",
+    "static/media/ghLogo.png": "./static/media/ghLogo.65a029dd14ae5c405656.png",
+    "index.html": "./index.html",
+    "main.71f853fa.css.map": "./static/css/main.71f853fa.css.map",
+    "main.7387bcc7.js.map": "./static/js/main.7387bcc7.js.map",
+    "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90b756d7.css",
-    "static/js/main.730fd554.js"
+    "static/css/main.71f853fa.css",
+    "static/js/main.7387bcc7.js"
   ]
 }
