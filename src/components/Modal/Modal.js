@@ -80,7 +80,12 @@ function Modal({ content }) {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
         >
-          <img src={content.video} className="modal-video" alt="Demo Gif"></img>
+          <img
+            loading="lazy"
+            src={content.video}
+            className="modal-video"
+            alt="Demo Gif"
+          ></img>
         </motion.div>
       </div>
     </motion.div>

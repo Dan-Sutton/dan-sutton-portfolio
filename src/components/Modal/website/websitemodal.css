@@ -31,13 +31,12 @@
   padding-top: 10px;
   padding-bottom: 20px;
   width: 100%;
-  height: auto;
-
   display: flex;
   justify-content: center;
 }
 
 .website-video {
+  height: 300px;
   width: max(80%, 300px);
   background-color: var(--background);
   border: 5px solid var(--background);

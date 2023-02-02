@@ -58,6 +58,7 @@ function WebsiteModal({ content }) {
             whileTap={{ scale: 0.9 }}
           >
             <img
+              loading="lazy"
               src={content.video}
               className="website-video"
               alt="Demo Gif"
