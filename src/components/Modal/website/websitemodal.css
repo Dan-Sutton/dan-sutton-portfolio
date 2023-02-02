@@ -58,7 +58,7 @@
   border: 4px solid var(--background);
   background-color: var(--background);
   color: white;
-  margin-right: 1%;
+  margin-right: 3%;
 }
 
 @media (max-width: 861px) {
