@@ -34,7 +34,7 @@ function Projects() {
             icon={item.icon}
             onClick={() => {
               handleModal(index);
-              setMobileView(false);
+              setMobileView(item.mobileView);
             }}
           />
         );

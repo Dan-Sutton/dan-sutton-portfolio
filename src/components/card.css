@@ -79,7 +79,7 @@
 }
 
 .card-title {
-  font-size: 6vmin;
+  font-size: 5.4vmin;
   font-weight: 700;
 }
 
@@ -100,11 +100,12 @@
 .card-icon {
   bottom: 0px;
   opacity: 0.9;
-  height: 12%;
-  aspect-ratio: 1 / 1;
+  height: auto;
+  /* aspect-ratio: 1 / 1; */
   left: 0px;
   margin: 5vmin;
   position: absolute;
   transition: color 250ms ease;
   z-index: 4;
+  max-width: 30%;
 }

@@ -50,7 +50,9 @@
 .EmailJS-tag,
 .Flutter-tag,
 .Dart-tag,
-.State-management-tag {
+.State-management-tag,
+.Strapi-tag,
+.Stripe-tag {
   height: 100%;
   margin: 0 2px 0 5px;
   padding: 5px 5px 5px 5px;
@@ -105,6 +107,16 @@
 
 .State-management-tag {
   background-color: #fdb501;
+}
+
+.Strapi-tag {
+  background-color: #4944ff;
+  color: white;
+}
+
+.Stripe-tag {
+  background-color: #5f57f4;
+  color: white;
 }
 
 @media (max-width: 861px) {

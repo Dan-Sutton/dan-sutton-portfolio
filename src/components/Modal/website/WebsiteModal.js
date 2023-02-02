@@ -52,19 +52,17 @@ function WebsiteModal({ content }) {
         <div className="website-modal-text-content">
           <p>{content.description}</p>
 
-          {/* <motion.div
-            className="mobile-video-div"
+          <motion.div
+            className="website-video-div"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.9 }}
           >
-            <motion.video
+            <img
               src={content.video}
-              type="video/mov"
-              className="modal-video"
-              autoPlay="true"
-              loop="true"
-            />
-          </motion.div> */}
+              className="website-video"
+              alt="Demo Gif"
+            ></img>
+          </motion.div>
 
           <div className="website-modal-button-row">
             <motion.button
