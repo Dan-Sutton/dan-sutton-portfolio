@@ -36,10 +36,11 @@
 }
 
 .website-video {
-  height: 300px;
+  height: min(auto, 300px);
   width: max(80%, 300px);
   background-color: var(--background);
   border: 5px solid var(--background);
+  object-fit: cover;
 }
 
 .website-modal-button:hover {

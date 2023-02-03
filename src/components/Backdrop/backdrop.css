@@ -1,6 +1,8 @@
 .backdrop {
   z-index: 10;
-  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
