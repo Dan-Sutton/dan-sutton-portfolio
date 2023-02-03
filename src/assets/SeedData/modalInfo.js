@@ -16,7 +16,7 @@ export const modalInfo = [
       "I was approached by a local business to create a website/webstore. It needed to be simple in design, and have a shopping page, an events page, and a contact form. To achieve this, I used Nextjs as a frontend framework, utilised Strapi’s headless CMS as the backend, Stripe to handle payments, and Emailjs for handling email contact. I worked closely with my client, designing a prototype on Figma before coding out the project. I ensured that they were informed and happy with each step taken.The business now uses the website which is central to its e-commerce, bookings, and inquiries.",
     video: "https://iili.io/H1VzHbf.gif",
     github: "https://github.com/Dan-Sutton/food-frontend",
-    link: "https://thefoodalchemist.netlify.app/",
+    link: "https://thefoodalchemist.co.uk/",
     stack: ["NextJS", "Strapi", "Stripe", "CSS", "GraphQL", "EmailJS"],
     icon: alchemy,
     mobileView: false,
