@@ -9,7 +9,7 @@
   border: 0.5vmin solid var(--highlight);
   cursor: pointer;
   position: relative;
-  width: 35vmin;
+  width: 29vmin;
   border-radius: 20px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .card:hover > .card-content {
-  background-position: -10% 0%;
+  background-position: -20% 0%;
 }
 
 .card:hover > .card-icon {
@@ -63,7 +63,7 @@
   background-position: 0% 0%;
   background-size: 3vmin 3vmin;
   height: calc(100%);
-  padding: 5vmin;
+  padding: 3vmin;
   position: relative;
   transition: background-position 350ms ease;
   width: calc(100%);
@@ -79,7 +79,7 @@
 }
 
 .card-title {
-  font-size: 5.4vmin;
+  font-size: 4.5vmin;
   font-weight: 700;
 }
 

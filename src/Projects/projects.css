@@ -10,8 +10,6 @@
   align-items: center;
   gap: 30px;
   flex-wrap: wrap;
-  height: 100vh;
-  min-height: -moz-available;
-  min-height: -webkit-fill-available;
-  min-height: fill-available;
+  height: fit-content;
+  width: 90vw;
 }
