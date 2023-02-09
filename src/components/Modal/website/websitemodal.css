@@ -19,6 +19,7 @@
   flex-direction: column;
   width: 85%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .website-modal-button-row {
@@ -28,16 +29,18 @@
 }
 
 .website-video-div {
+  aspect-ratio: 16 / 9;
   padding-top: 10px;
   padding-bottom: 20px;
-  width: 100%;
+  /* height: max(auto, 300px); */
+  width: max(80%, 300px);
   display: flex;
   justify-content: center;
 }
 
 .website-video {
-  height: min(auto, 300px);
-  width: max(80%, 300px);
+  height: 100%;
+  width: 100%;
   background-color: var(--background);
   border: 5px solid var(--background);
   object-fit: cover;
