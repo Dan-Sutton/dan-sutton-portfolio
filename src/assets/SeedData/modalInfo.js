@@ -26,7 +26,8 @@ export const modalInfo = [
   {
     name: "pokedex",
     title: "Pokédex",
-    description: "",
+    description:
+      "This app created in Flutter utilises the PokéAPI. Using Provider and HTTP packages, I was able to fetch the initial 20 Pokémon. I also had a function that would then fetch 10 more at a time as the user reached the end of the list. Each Pokémon tile can be tapped on, leading the user to a more detailed info page. Throughout the whole app, the user can save their favourite Pokémon, and this info is subsequently saved into Hive local storage. Finally using the FloatingActionBubble menu, the user can navigate to a search page or the saved Pokémon page.",
     video: "https://iili.io/HETRz3g.gif",
     github: "https://github.com/Dan-Sutton/pokedex",
     link: "https://github.com/Dan-Sutton/pokedex",
