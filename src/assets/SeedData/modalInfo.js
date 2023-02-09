@@ -1,4 +1,4 @@
-import cookr from "../../assets/cookr.png";
+// import cookr from "../../assets/cookr.png";
 
 import fire from "../../assets/fire.png";
 
