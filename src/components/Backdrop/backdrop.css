@@ -54,7 +54,8 @@
 .Dart-tag,
 .State-management-tag,
 .Strapi-tag,
-.Stripe-tag {
+.Stripe-tag,
+.Local-storage-tag {
   height: 100%;
   margin: 0 2px 0 5px;
   padding: 5px 5px 5px 5px;
@@ -93,7 +94,8 @@
   background-color: #e82fb1;
 }
 
-.EmailJS-tag {
+.EmailJS-tag,
+.Local-storage-tag {
   background-color: #64d8c0;
 }
 

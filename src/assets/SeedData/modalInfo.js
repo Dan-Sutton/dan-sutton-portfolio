@@ -8,6 +8,8 @@ import spotlas from "../../assets/spotlas.png";
 
 import alchemy from "../../assets/alchemylogo.png";
 
+import pokeball from "../../assets/pokeball.png";
+
 export const modalInfo = [
   {
     name: "thefoodalchemist",
@@ -20,6 +22,17 @@ export const modalInfo = [
     stack: ["NextJS", "Strapi", "Stripe", "CSS", "GraphQL", "EmailJS"],
     icon: alchemy,
     mobileView: false,
+  },
+  {
+    name: "pokedex",
+    title: "Pokédex",
+    description: "",
+    video: "https://iili.io/HETRz3g.gif",
+    github: "https://github.com/Dan-Sutton/pokedex",
+    link: "https://github.com/Dan-Sutton/pokedex",
+    stack: ["Flutter", "Dart", "APIs", "State-management", "Local-storage"],
+    mobileView: true,
+    icon: pokeball,
   },
   {
     name: "playme",
@@ -58,16 +71,16 @@ export const modalInfo = [
     mobileView: false,
   },
 
-  {
-    name: "cookr",
-    title: "Cookr",
-    description:
-      "With the creation of this app, I aimed to solve the daily issue of what to have at meal times. I was inspired by the quick and simple useage of Tinder, which gives the user a quick overview of information, allowing them to quickly decide 'yes', or 'no'. My learning focus here was to practise fetching information from a API. ",
-    video: "https://iili.io/H1MrTMu.gif",
-    github: "https://github.com/Dan-Sutton/cookr",
-    link: "https://dan-sutton.github.io/cookr/",
-    stack: ["React", "CSS", "APIs"],
-    icon: cookr,
-    mobileView: true,
-  },
+  // {
+  //   name: "cookr",
+  //   title: "Cookr",
+  //   description:
+  //     "With the creation of this app, I aimed to solve the daily issue of what to have at meal times. I was inspired by the quick and simple useage of Tinder, which gives the user a quick overview of information, allowing them to quickly decide 'yes', or 'no'. My learning focus here was to practise fetching information from a API. ",
+  //   video: "https://iili.io/H1MrTMu.gif",
+  //   github: "https://github.com/Dan-Sutton/cookr",
+  //   link: "https://dan-sutton.github.io/cookr/",
+  //   stack: ["React", "CSS", "APIs"],
+  //   icon: cookr,
+  //   mobileView: true,
+  // },
 ];
